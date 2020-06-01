@@ -18,27 +18,27 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
-                radius: 50.0,
-                backgroundImage: AssetImage('images/upload.jpeg'),
+                radius: 70.0,
+                backgroundImage: AssetImage('images/mainIcon.png'),
               ),
               Text(
-                'Shivam Paul',
+                'Learnify',
                 style: TextStyle(
-                  fontFamily: 'Satisfy',
+                  fontFamily: 'Bad_Script',
                   fontSize: 37.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              Text(
-                'Photographer',
-                style: TextStyle(
-                  fontFamily: 'Chelsea_Market',
-                  color: Colors.teal.shade50,
-                  fontSize: 18.0,
-                  letterSpacing: 2.1,
-                ),
-              ),
+//              Text(
+//                'Photographer',
+//                style: TextStyle(
+//                  fontFamily: 'Chelsea_Market',
+//                  color: Colors.teal.shade50,
+//                  fontSize: 18.0,
+//                  letterSpacing: 2.1,
+//                ),
+//              ),
               SizedBox(
                 height: 20.0,
                 width: 200.0,
@@ -52,11 +52,11 @@ class MyApp extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: ListTile(
                     leading: Icon(
-                      Icons.phone,
+                      Icons.person,
                       color: Colors.teal.shade800,
                     ),
                     title: Text(
-                      '123 456 7890',
+                      'Sign In',
                       style: TextStyle(
                         color: Colors.black,
                         fontFamily: 'Chelsea_Market',
@@ -73,16 +73,16 @@ class MyApp extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: ListTile(
                     leading: Icon(
-                      Icons.email,
+                      Icons.person_add,
                       color: Colors.teal.shade800,
                     ),
                     title: Text(
-                      'shivam.paul@gmail.com',
+                      'Register',
                       style: TextStyle(
                         color: Colors.black,
                         fontFamily: 'Chelsea_Market',
-                        fontSize: 16.5,
-                        letterSpacing: 1.3,
+                        fontSize: 19.0,
+                        letterSpacing: 2.2,
                       ),
                     ),
                   ),
